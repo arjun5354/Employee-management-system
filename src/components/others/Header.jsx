@@ -10,7 +10,7 @@ const Header = (props) => {
   //   else{
   // setUsername(data.firstName)
   //   }
-  const username = props.data?.firstName || 'Mr. Arjun-(Admin)'
+  const username = props.data?.firstName || 'Alivia-(Admin)'
   const logOutUser=()=>{
     localStorage.setItem("loggedInUser",'')
     // window.location.reload()
